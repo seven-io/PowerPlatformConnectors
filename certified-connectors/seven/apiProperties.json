@@ -1,0 +1,48 @@
+{
+  "properties": {
+    "capabilities": [],
+    "connectionParameters": {
+      "token": {
+        "oAuthSettings": {
+          "clientId": "CLIENT_ID",
+          "customParameters": {
+            "authorizationUrl": {
+              "value": "https://oauth.seven.io/authorize"
+            },
+            "refreshUrl": {
+              "value": "https://oauth.seven.io/token"
+            },
+            "tokenUrl": {
+              "value": "https://oauth.seven.io/token"
+            }
+          },
+          "identityProvider": "oauth2",
+          "properties": {
+            "IsFirstParty": "False"
+          },
+          "redirectMode": "Global",
+          "redirectUrl": "https://global.consent.azure-apim.net/redirect",
+          "scopes": [
+            "analytics", 
+            "balance", 
+            "contacts",
+            "hooks", 
+            "journal",
+            "lookup", 
+            "pricing",
+            "rcs",
+            "sms",
+            "status",
+            "subaccounts",
+            "validate_for_voice",
+            "voice"
+          ]
+        },
+        "type": "oauthSetting"
+      }
+    },
+    "iconBrandColor": "#00d488",
+    "publisher": "seven communications GmbH & Co. KG",
+    "stackOwner": "seven communications GmbH & Co. KG"
+  }
+}
